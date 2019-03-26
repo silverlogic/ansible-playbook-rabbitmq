@@ -1,5 +1,8 @@
 ---
 
+- name: install rabbitmq-server
+  apt: name=apt-transport-https update_cache=yes
+
 # RabbitMQ official install
 - name: "add the official rabbitmq repository's key"
   apt_key: url=https://www.rabbitmq.com/rabbitmq-release-signing-key.asc
