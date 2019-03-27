@@ -1,7 +1,7 @@
 ---
 
-- name: install rabbitmq-server
-  apt: name=apt-transport-https update_cache=yes
+- name: install apt-transport-https
+  apt: name=apt-transport-https update_cache=no
 
 # RabbitMQ official install
 - name: "add the official rabbitmq repository's key"
