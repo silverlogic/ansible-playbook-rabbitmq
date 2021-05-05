@@ -1,3 +1,4 @@
 # Official repository of rabbitmq link: https://www.rabbitmq.com/install-debian.html#erlang-source-list-file
-## Installs the latest 22.x version available in the repository.
-deb https://dl.bintray.com/rabbitmq-erlang/debian stretch erlang-22.x
+## Installs the latest 23.x version available in the repository.
+deb https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-erlang/deb/debian buster erlang-23.x
+deb-src https://dl.cloudsmith.io/public/rabbitmq/rabbitmq-erlang/deb/debian buster erlang-23.x
